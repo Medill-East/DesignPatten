@@ -20,6 +20,7 @@ namespace A._2_动物运动会
         private void 猫叫_Click(object sender, EventArgs e)
         {
             Cat cat = new Cat("nekopara");
+            cat.ShoutNum = 5;
             MessageBox.Show(cat.Shout());
 
         }
