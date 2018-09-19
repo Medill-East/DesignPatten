@@ -10,6 +10,12 @@ namespace A._2_动物运动会
     {
         private string name = "";
 
+        public Cat()
+        {
+            this.name = "no one";
+        }
+
+
         public Cat(string inputName)
         {
             this.name = inputName;
@@ -17,7 +23,7 @@ namespace A._2_动物运动会
 
         public string Shout()
         {
-            return "我的名字叫 " + name + " 喵~";
+            return "I'm " + name + " 喵~";
         }
     }
 }
