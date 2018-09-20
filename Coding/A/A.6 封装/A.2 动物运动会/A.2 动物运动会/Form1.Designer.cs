@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             this.猫叫 = new System.Windows.Forms.Button();
+            this.狗叫 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // 猫叫
             // 
-            this.猫叫.Location = new System.Drawing.Point(330, 188);
+            this.猫叫.Location = new System.Drawing.Point(331, 145);
             this.猫叫.Name = "猫叫";
             this.猫叫.Size = new System.Drawing.Size(111, 56);
             this.猫叫.TabIndex = 0;
@@ -41,11 +42,22 @@
             this.猫叫.UseVisualStyleBackColor = true;
             this.猫叫.Click += new System.EventHandler(this.猫叫_Click);
             // 
+            // 狗叫
+            // 
+            this.狗叫.Location = new System.Drawing.Point(331, 240);
+            this.狗叫.Name = "狗叫";
+            this.狗叫.Size = new System.Drawing.Size(111, 52);
+            this.狗叫.TabIndex = 1;
+            this.狗叫.Text = "狗叫";
+            this.狗叫.UseVisualStyleBackColor = true;
+            this.狗叫.Click += new System.EventHandler(this.狗叫_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.狗叫);
             this.Controls.Add(this.猫叫);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button 猫叫;
+        private System.Windows.Forms.Button 狗叫;
     }
 }
 

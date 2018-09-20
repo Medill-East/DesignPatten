@@ -24,5 +24,12 @@ namespace A._2_动物运动会
             MessageBox.Show(cat.Shout());
 
         }
+
+        private void 狗叫_Click(object sender, EventArgs e)
+        {
+            Dog dog = new Dog();
+            dog.ShoutNum = 5;
+            MessageBox.Show(dog.Shout());
+        }
     }
 }
