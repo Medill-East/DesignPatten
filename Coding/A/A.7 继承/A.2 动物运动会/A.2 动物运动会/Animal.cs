@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace A._2_动物运动会
 {
-    class Dog
+    class Animal
     {
         /// <summary>
         /// 字段
         /// </summary>
-        private string name = "";
-        private int shoutNum = 3;
+        protected string name = "";
+        protected int shoutNum = 3;
 
         /// <summary>
         /// 属性
@@ -33,13 +33,13 @@ namespace A._2_动物运动会
             }   //可赋值
         }
 
-        public Dog()
+        public Animal()
         {
-            this.name = "one";
+            this.name = "no one";
         }
 
 
-        public Dog(string inputName)
+        public Animal(string inputName)
         {
             this.name = inputName;
         }
@@ -49,9 +49,9 @@ namespace A._2_动物运动会
             string result = "";
             for (int i = 0; i < shoutNum; i++)
             {
-                result += "旺！ ";
+                result += "喵~ ";
             }
-            return "I'm " + name + " 旺！" + result;
+            return "I'm " + name + " 喵~" + result;
         }
     }
 }
