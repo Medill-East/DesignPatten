@@ -44,7 +44,7 @@ namespace A._2_动物运动会
             this.name = inputName;
         }
 
-        public string Shout()
+        public virtual string Shout()
         {
             string result = "";
             for (int i = 0; i < shoutNum; i++)
