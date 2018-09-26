@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace A._2_动物运动会
 {
-    class Sheep:Animal
+    class Dog : Animal
     {
-        public Sheep() : base()
+        public Dog() : base()
         {
         }
 
 
-        public Sheep(string inputName) : base(inputName)
+        public Dog(string inputName) : base(inputName)
         {
         }
 
-        public override string getShoutSound()
+        protected override string getShoutSound()
         {
-            return "咩";
+            return " 旺！";
         }
     }
 }

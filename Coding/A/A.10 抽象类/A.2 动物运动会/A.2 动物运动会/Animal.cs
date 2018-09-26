@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace A._2_动物运动会
 {
-    class Animal
+    abstract class Animal
     {
         /// <summary>
         /// 字段
@@ -54,9 +54,7 @@ namespace A._2_动物运动会
             return "I'm " + name + " " + result;
         }
 
-        public virtual string getShoutSound()
-        {
-            return "";
-        }
+        protected abstract string getShoutSound();
+
     }
 }
