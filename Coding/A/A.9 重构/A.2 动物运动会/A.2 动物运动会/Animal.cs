@@ -44,14 +44,19 @@ namespace A._2_动物运动会
             this.name = inputName;
         }
 
-        public virtual string Shout()
+        public string Shout()
         {
             string result = "";
             for (int i = 0; i < shoutNum; i++)
             {
-                result += "喵~ ";
+                result += getShoutSound() + "~";
             }
-            return "I'm " + name + " 喵~" + result;
+            return "I'm " + name + " " + result;
+        }
+
+        public virtual string getShoutSound()
+        {
+            return "";
         }
     }
 }

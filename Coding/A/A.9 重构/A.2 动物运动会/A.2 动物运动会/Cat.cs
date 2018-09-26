@@ -18,14 +18,9 @@ namespace A._2_动物运动会
         {
         }
 
-        public override string Shout()
+        public override string getShoutSound()
         {
-            string result = "";
-            for(int i=0;i<shoutNum;i++)
-            {
-                result += "喵~ ";
-            }
-            return "I'm " + name + " 喵~" + result;
+            return " 喵~";
         }
     }
 }
