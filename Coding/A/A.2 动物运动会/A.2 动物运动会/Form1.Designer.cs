@@ -32,6 +32,7 @@
             this.狗叫 = new System.Windows.Forms.Button();
             this.动物报名 = new System.Windows.Forms.Button();
             this.叫声比赛 = new System.Windows.Forms.Button();
+            this.变 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // 猫叫
@@ -74,11 +75,22 @@
             this.叫声比赛.UseVisualStyleBackColor = true;
             this.叫声比赛.Click += new System.EventHandler(this.叫声比赛_Click);
             // 
+            // 变
+            // 
+            this.变.Location = new System.Drawing.Point(344, 192);
+            this.变.Name = "变";
+            this.变.Size = new System.Drawing.Size(116, 42);
+            this.变.TabIndex = 4;
+            this.变.Text = "变";
+            this.变.UseVisualStyleBackColor = true;
+            this.变.Click += new System.EventHandler(this.变_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.变);
             this.Controls.Add(this.叫声比赛);
             this.Controls.Add(this.动物报名);
             this.Controls.Add(this.狗叫);
@@ -95,6 +107,7 @@
         private System.Windows.Forms.Button 狗叫;
         private System.Windows.Forms.Button 动物报名;
         private System.Windows.Forms.Button 叫声比赛;
+        private System.Windows.Forms.Button 变;
     }
 }
 

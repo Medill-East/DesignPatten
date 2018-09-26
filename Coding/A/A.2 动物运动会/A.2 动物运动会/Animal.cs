@@ -56,5 +56,7 @@ namespace A._2_动物运动会
 
         protected abstract string getShoutSound();
 
+
+
     }
 }

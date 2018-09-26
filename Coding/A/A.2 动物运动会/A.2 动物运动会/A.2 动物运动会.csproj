@@ -56,9 +56,15 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IChange.cs" />
+    <Compile Include="MachineCat.cs" />
+    <Compile Include="Monkey.cs" />
+    <Compile Include="Pig.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sheep.cs" />
+    <Compile Include="SkyPig.cs" />
+    <Compile Include="StoneMonkey.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
