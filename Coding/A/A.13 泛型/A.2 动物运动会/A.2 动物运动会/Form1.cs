@@ -14,7 +14,7 @@ namespace A._2_动物运动会
     public partial class Form1 : Form
     {
         //private Animal[] arrayAnimal;
-        IList arrayAnimal;
+        IList<Animal> arrayAnimal;
 
         public Form1()
         {
@@ -51,7 +51,7 @@ namespace A._2_动物运动会
 
             //ArrayList
 
-            arrayAnimal = new ArrayList();
+            arrayAnimal = new List<Animal>();
 
             arrayAnimal.Add(new Cat("neko ichi"));
             arrayAnimal.Add(new Dog("inu ichi"));
